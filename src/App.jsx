@@ -60,7 +60,7 @@ function App() {
         <Route path="/news" element={<News />} />
         <Route path="/ebook" element={<Ebook />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/UsingLibrary" element={<Using />} />
+        <Route path="/usingLibrary" element={<Using />} />
         <Route path="/space" element={<Space />} />
         <Route path="/course" element={<Course />} />
         <Route path="/userfeedback" element={<UserFeedback />} />
