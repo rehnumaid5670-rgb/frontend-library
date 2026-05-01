@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-function UsingLibrary() {
+function Using() {
   const [issuedBooks, setIssuedBooks] = useState([]);
   const [card, setCard] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -113,4 +113,4 @@ function UsingLibrary() {
   );
 }
 
-export default UsingLibrary;
+export default Using;
