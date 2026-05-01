@@ -25,7 +25,7 @@ import News from "./components/News";
 import AdminLogin from "./Adminpanel/AdminLogin";
 import Ebook from "./components/Ebook";
 import Register from "./components/Register";
-import using from "./components/Using"
+import Using from "./components/Using"
 import Space from "./components/Space";
 import Course from "./components/course";
 import UserFeedback from "./components/Feedback";
