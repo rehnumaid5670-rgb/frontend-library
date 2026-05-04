@@ -1,3 +1,4 @@
+```javascript
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Sidebar from "../Adminpanel/Sidebar";
@@ -13,6 +14,7 @@ import {
   ArcElement,
   Tooltip,
   Legend,
+  Filler, // ✅ added
 } from "chart.js";
 
 import { Line, Doughnut } from "react-chartjs-2";
@@ -26,7 +28,8 @@ ChartJS.register(
   BarElement,
   ArcElement,
   Tooltip,
-  Legend
+  Legend,
+  Filler // ✅ added
 );
 
 function AdminDashboard() {
@@ -54,7 +57,7 @@ function AdminDashboard() {
     }
   };
 
-  // ✅ Use lineData for the Line chart
+  // Line chart data
   const lineData = {
     labels: ["Books", "Users"],
     datasets: [
@@ -132,7 +135,7 @@ function AdminDashboard() {
   );
 }
 
-/* 🎨 Styles */
+/* Styles */
 const layout = {
   display: "flex",
   minHeight: "100vh",
@@ -189,9 +192,8 @@ const chartBox = {
   borderRadius: "10px",
   boxShadow: "0 5px 10px rgba(0,0,0,0.1)",
   flex: 1,
-  minWidth: "100px", // ✅ Fixed typo
-
-
+  minWidth: "100px",
 };
 
 export default AdminDashboard;
+```

@@ -52,7 +52,7 @@ const Hero = () => {
           <li><Link to="/userfeedback">Feedback</Link></li>
           <li><Link to="/space">Book or Rent Space</Link></li>
           <li><Link to="/course">Online Courses</Link></li>
-
+<li><Link to="/admin ">Admin login </Link></li>
           {/* 🚪 LOGOUT (ONLY IF LOGGED IN) */}
           {isLoggedIn && (
             <li>
